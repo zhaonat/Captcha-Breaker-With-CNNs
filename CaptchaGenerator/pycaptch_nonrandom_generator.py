@@ -13,7 +13,7 @@ print(fonts)
 image = ImageCaptcha(fonts=fonts)
 
 captchlength = 1;
-numGenerate = 1000;
+numGenerate = 5000;
 generatorDictionary = dict();
 for i in range(numGenerate):
     #generate random number and convert to character
