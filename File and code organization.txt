@@ -1,0 +1,38 @@
+How the files are organized
+
+MY_PROJECT_PATH (highest-level folder)
+- .py codes
+- Fonts (folder)
+	- .ttf files
+- Single letter training set (folder)
+	- .png files
+- (other folders that I haven't thought of yet)
+
+I put all developer-dependent variables in dev_constants.py. Feel free to add your own constants that you think are necessary. This should be things that are specific to your own machine. Each of us should have a local copy of this file, with the constants being modified to fit his/her environment.
+
+Import this as a package at the beginning of your code.
+
+For example,
+MY_PROJECT_PATH is the path where you put all the code in. For me it is 'C:\\Users\\Yijun\\Python\\CS229'. So when I load data, I change MY_PROJECT_PATH to this string, and my code looks like
+- Beginning of code
+import dev_constants
+
+(some other codes)
+path = dev_constants.MY_PROJECT_PATH
+fullFileDir = os.path.join(path, 'Single letter training set', fileName)
+- End of code
+
+So that when you run the same piece of code, you don't need to change anything but go to dev_constants.py and change the value of MY_PROJECT_PATH.
+
+Same logic for the other variables (if any) in dev_constants.py.
+
+
+Naming convension
+Java naming convention is used, because we like lowerCamelCase.
+- class name		should start with uppercase letter and be a noun e.g. String, Color, Button, System, Thread etc.
+- interface name	should start with uppercase letter and be an adjective e.g. Runnable, Remote, ActionListener etc.
+- method name		should start with lowercase letter and be a verb e.g. actionPerformed(), main(), print(), println() etc.
+- variable name		should start with lowercase letter e.g. firstName, orderNumber etc.
+- package name		should be in lowercase letter e.g. java, lang, sql, util etc.
+- constants name	should be in uppercase letter. e.g. RED, YELLOW, MAX_PRIORITY etc.
+
