@@ -9,24 +9,31 @@ from PIL import Image
 import math
 import os
 
-def batchLoadImage(dirName, imageSize = 60*40*3):
+def batchLoadImage(dirName,imageSize = 40*60):
     # Load all images in a given directory
-    # Output: dataset is an m-by-n array,
+    # Output: 
+    #(1)dataset is an m-by-n array,
     # where m is number of examples and n is dimension
     # So the i-th example is dataset[i]
+    #(2)dataLabel is an m-by-1 array
+    #A-Z are labeled by 0-25
 
     counter = 0
     dataset = np.array([])
-    # Each image should be 60*40, with RGB 3 channels
+    dataLabel = np.array([])
+    #Each image should be 60*40, with RGB 3 channels
     for fileName in os.listdir(dirName):
         if fileName.endswith('.png'):
             data = loadImage(os.path.join(dirName, fileName))
-            if(np.size(data) != imageSize):
+            if(np.size(data) != imageSize ):
                 continue
             dataset = np.append(dataset, data)
+            fileLabel = ord(fileName[:-4]) - ord('A')
+            dataLabel = np.append(dataLabel,fileLabel)
             counter += 1
     dataset = dataset.reshape(counter, int(np.size(dataset)/counter))
-    return dataset
+    dataLabel = dataLabel.reshape(counter,1)
+    return (dataset,dataLabel)
 
 def loadImage(imgFileName):
     # Load one image with given file name
@@ -74,6 +81,5 @@ def binarizeData(data, threshold = 127):
     binarizedData = (data > threshold) * 1
     return binarizedData
 
-# Examples
-# data = loadImage('./TrainSet/ACKG.png')
-# dataset = batchLoadImage('./TrainSet')
+    
+    
