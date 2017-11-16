@@ -9,7 +9,7 @@ from PIL import Image
 import math
 import os
 
-def batchLoadImage(dirName, imageSize = 60*40*3):
+def batchLoadImage(dirName, imageSize = 60*40):
     # Load all images in a given directory
     # Output: dataset is an m-by-n array,
     # where m is number of examples and n is dimension
