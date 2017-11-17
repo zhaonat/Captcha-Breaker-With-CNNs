@@ -15,7 +15,7 @@ print(images.shape)
 features = data[1];
 
 numSamples = len(features);
-newSamples = 8000;
+newSamples = 50000;
 imageData = list();
 imageLabels = list();
 for i in range(newSamples):

@@ -40,10 +40,10 @@ model = Sequential();
 #third argumen
 model.add(Conv2D(20,(2,2),strides = 1, activation = 'relu', input_shape = (60,40,1)))
 model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
-model.add(Conv2D(40,(5,5),strides = 1, activation = 'relu'))
+model.add(Conv2D(40,(3,3),strides = 1, activation = 'relu'))
 model.add(Dropout(0.1));
 model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
-model.add(Conv2D(80,(4,4),strides = 1, activation = 'relu'))
+model.add(Conv2D(80,(2,2),strides = 1, activation = 'relu'))
 # model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
 # model.add(Conv2D(80,(2,2),strides = 1, activation = 'relu'))
 # model.add(Dropout(0.1));
@@ -75,6 +75,7 @@ model.compile(loss='categorical_crossentropy',
 history = model.fit(X_train, y_train, validation_split=0.2, batch_size=400, epochs=20, verbose=1);
 
 print(model.evaluate(X_test, y_test))
+model.save('single_char_CNN.h5');
 
 # list all data in history
 print(history.history.keys())
