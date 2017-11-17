@@ -6,18 +6,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from keras.utils import np_utils
 from sklearn.model_selection import train_test_split
-dir= 'D:\\Documents\\CS229\\Project\\ConvolutionalNeuralNets\\'
+import dev_constants as dev
+import load_pickle_database as pdb
+dir= dev.MY_PROJECT_PATH+'\\ConvolutionalNeuralNets\\'
 
-data = pickle.load(open(dir+'singlechar_database.p', 'rb'));
+path = dir+'singlechar_database.p'
 
-images = data[0];
-print(images.shape)
-features = data[1];
-print(images[0].shape)
-print(features)
-#convert all chars to integers
-features = np.array([ord(i) for i in features]);
-features = features-65;
+images, features = pdb.load_images_labels(path);
 y = np_utils.to_categorical(features);
 print(y);
 print(y.shape)
