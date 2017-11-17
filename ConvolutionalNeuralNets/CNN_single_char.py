@@ -13,7 +13,10 @@ dir= dev.MY_PROJECT_PATH+'\\ConvolutionalNeuralNets\\'
 path = dir+'singlechar_database.p'
 
 images, features = pdb.load_images_labels(path);
-y = np_utils.to_categorical(features);
+# convert all chars to integers
+labels = np.array([ord(i) for i in features]);
+labels = labels - 65;
+y = np_utils.to_categorical(labels);
 print(y);
 print(y.shape)
 #categorize the features
