@@ -5,6 +5,7 @@ from keras.layers import Conv2D, MaxPooling2D
 import matplotlib.pyplot as plt
 import numpy as np
 from keras.utils import np_utils
+from sklearn.model_selection import train_test_split
 dir= 'D:\\Documents\\CS229\\Project\\ConvolutionalNeuralNets\\'
 
 data = pickle.load(open(dir+'singlechar_database.p', 'rb'));
@@ -17,9 +18,9 @@ print(features)
 #convert all chars to integers
 features = np.array([ord(i) for i in features]);
 features = features-65;
-y_train = np_utils.to_categorical(features);
-print(y_train);
-print(y_train.shape)
+y = np_utils.to_categorical(features);
+print(y);
+print(y.shape)
 #categorize the features
 
 ## process images
@@ -29,9 +30,11 @@ print(y_train.shape)
 X = images;
 # X = X[:,:,:,0:2];
 X = X[:,:,:,0];
-X = np.reshape(X, (5000,60,40,1));
+X = np.reshape(X, (50000,60,40,1));
 ## Create the  convolutional neural net
 
+## train test split
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.2);
 
 model = Sequential();
 
@@ -41,14 +44,11 @@ model = Sequential();
 #second argument is kernel size, or size of conv window
 #third argumen
 model.add(Conv2D(20,(2,2),strides = 1, activation = 'relu', input_shape = (60,40,1)))
-model.add(Dropout(0.1));
+model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
 model.add(Conv2D(40,(5,5),strides = 1, activation = 'relu'))
 model.add(Dropout(0.1));
-# model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
-# model.add(Conv2D(80,(6,6),strides = 1, activation = 'relu'))
-# model.add(Dropout(0.1));
-# model.add(Conv2D(160,(2,2),strides = 1, activation = 'relu'))
-# model.add(Dropout(0.1));
+model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
+model.add(Conv2D(80,(6,6),strides = 1, activation = 'relu'))
 # model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
 # model.add(Conv2D(80,(2,2),strides = 1, activation = 'relu'))
 # model.add(Dropout(0.1));
@@ -63,9 +63,11 @@ model.add(Flatten()) #flattens the input (so it's 1d after this point)
 
 
 
+model.add(Dense(1000, activation = 'relu'))
+model.add(Dropout(0.01));
 model.add(Dense(100, activation = 'relu'))
 model.add(Dropout(0.01));
-num_classes = y_train.shape[1]
+num_classes = y.shape[1]
 model.add(Dense(num_classes, activation = 'softmax'));
 
 
@@ -76,7 +78,10 @@ model.compile(loss='categorical_crossentropy',
 
 ## fit the model to the train
 #careful about batch size, can lead to nonetype is not callable error
-history = model.fit(X, y_train, validation_split=0.05, batch_size=200, epochs=500, verbose=1);
+history = model.fit(X_train, y_train, validation_split=0.05, batch_size=10, epochs=500, verbose=1);
+
+print(model.evaluate(X_test, y_test))
+
 # list all data in history
 print(history.history.keys())
 # summarize history for accuracy
