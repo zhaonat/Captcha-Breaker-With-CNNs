@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="840c1fa3-6881-46d5-a2a0-50c56256ec60" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eetrdrHEA" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" afterPath="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="CNN_single_char.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+            <state relative-caret-position="407">
+              <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -315,7 +314,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="333" y="0" width="2213" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15095216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -763,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="407">
+          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

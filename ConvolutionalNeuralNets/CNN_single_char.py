@@ -48,11 +48,11 @@ model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
 model.add(Conv2D(40,(5,5),strides = 1, activation = 'relu'))
 model.add(Dropout(0.1));
 model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
-model.add(Conv2D(80,(6,6),strides = 1, activation = 'relu'))
+model.add(Conv2D(80,(4,4),strides = 1, activation = 'relu'))
 # model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
 # model.add(Conv2D(80,(2,2),strides = 1, activation = 'relu'))
 # model.add(Dropout(0.1));
-# model.add(Conv2D(40,(3,3),strides = 1, activation = 'relu'))
+model.add(Conv2D(40,(2,2),strides = 1, activation = 'relu'))
 # # maxpooling essentially does a dimensionality reduction
 model.add(MaxPooling2D(pool_size = (2,2))); #pool size = reduction factor
 
@@ -64,9 +64,8 @@ model.add(Flatten()) #flattens the input (so it's 1d after this point)
 
 
 model.add(Dense(1000, activation = 'relu'))
-model.add(Dropout(0.01));
+model.add(Dropout(0.1));
 model.add(Dense(100, activation = 'relu'))
-model.add(Dropout(0.01));
 num_classes = y.shape[1]
 model.add(Dense(num_classes, activation = 'softmax'));
 
@@ -78,7 +77,7 @@ model.compile(loss='categorical_crossentropy',
 
 ## fit the model to the train
 #careful about batch size, can lead to nonetype is not callable error
-history = model.fit(X_train, y_train, validation_split=0.05, batch_size=10, epochs=500, verbose=1);
+history = model.fit(X_train, y_train, validation_split=0.2, batch_size=400, epochs=20, verbose=1);
 
 print(model.evaluate(X_test, y_test))
 
