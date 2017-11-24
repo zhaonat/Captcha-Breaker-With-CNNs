@@ -8,15 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="840c1fa3-6881-46d5-a2a0-50c56256ec60" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter_testfonts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestFonts/MENIB___.PFM" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestFonts/N-GAGE__.PFM" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestFonts/SPAWNED_.PFM" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" afterPath="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py" afterPath="$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CaptchaGenerator/pycaptch_nonrandom_generator.py" afterPath="$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py" afterPath="$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +42,8 @@
       <file leaf-file-name="CNN_single_char.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="254">
+              <caret line="43" column="85" lean-forward="true" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -62,8 +54,8 @@
       <file leaf-file-name="TransferFromImageNet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="320">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -787,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="43" column="85" lean-forward="true" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -797,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="320">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
