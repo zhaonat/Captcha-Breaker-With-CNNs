@@ -36,10 +36,10 @@ for imgfile in os.listdir(dir):
         if(i.size!= 60*40*3):
             continue;
         captchaBatch.append(np.reshape(i[:,:,1], (60,40,1)));
-        #print(i.shape)
 
-        plt.imshow(i);
-        #plt.show()
+        ## look at the image
+        # plt.imshow(i);
+        # #plt.show()
 
     captchaBatch = np.array(captchaBatch);
     print(captchaBatch.shape)

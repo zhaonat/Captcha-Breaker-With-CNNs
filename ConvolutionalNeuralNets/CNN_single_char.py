@@ -58,12 +58,12 @@ model.add(Flatten()) #flattens the input (so it's 1d after this point)
 #Dense is just a normal neural network layer (the core layer)
 
 ## only after convolution do we start appending dense layers like a NN
-
-
-
 model.add(Dense(1000, activation = 'relu'))
+model.add(Dropout(0.2));
+model.add(Dense(500, activation = 'relu'))
 model.add(Dropout(0.1));
 model.add(Dense(100, activation = 'relu'))
+model.add(Dropout(0.1));
 num_classes = y.shape[1]
 model.add(Dense(num_classes, activation = 'softmax'));
 
@@ -75,7 +75,7 @@ model.compile(loss='categorical_crossentropy',
 
 ## fit the model to the train
 #careful about batch size, can lead to nonetype is not callable error
-history = model.fit(X_train, y_train, validation_split=0.2, batch_size=400, epochs=20, verbose=1);
+history = model.fit(X_train, y_train, validation_split=0.2, batch_size=400, epochs=40, verbose=1);
 
 print(model.evaluate(X_test, y_test))
 model.save('single_char_CNN.h5');

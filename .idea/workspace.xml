@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_nonrandom_generator.py" line="34" />
-    <bookmark url="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" line="63" />
+    <bookmark url="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py" line="34" />
+    <bookmark url="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" line="60" />
     <bookmark url="file://$PROJECT_DIR$/CaptchaGenerator/captcha_from_single_letter_generator.py" line="8" />
     <bookmark url="file://$PROJECT_DIR$/Preprocessing/Kmeans.py" line="11" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="840c1fa3-6881-46d5-a2a0-50c56256ec60" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter_testfonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestFonts/MENIB___.PFM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestFonts/N-GAGE__.PFM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestFonts/SPAWNED_.PFM" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" afterPath="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py" afterPath="$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CaptchaGenerator/pycaptch_nonrandom_generator.py" afterPath="$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,13 +27,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pycaptch_single_letter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="17" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pycaptch_single_letter_testfonts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter_testfonts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CNN_single_char.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+            <state relative-caret-position="353">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransferFromImageNet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,9 +74,11 @@
       <file leaf-file-name="captcha_from_single_letter_generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CaptchaGenerator/captcha_from_single_letter_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="286">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="e#126#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +98,8 @@
       <file leaf-file-name="Distortion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageEditing/Distortion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="408">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="10" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -66,13 +107,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovingWindowTest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py">
+      <file leaf-file-name="Noise.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageEditing/Noise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#27#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,12 +161,15 @@
         <option value="$PROJECT_DIR$/ImageEditing/letter_overlay.py" />
         <option value="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_overlay.py" />
         <option value="$PROJECT_DIR$/load_pickle_database.py" />
-        <option value="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" />
         <option value="$PROJECT_DIR$/NeuralNetTesting/LetterDetection.py" />
         <option value="$PROJECT_DIR$/Preprocessing/Kmeans.py" />
         <option value="$PROJECT_DIR$/MovingWindowReader/MovingWindowGenerator.py" />
         <option value="$PROJECT_DIR$/NeuralNetTesting/OHE_to_Letter.py" />
         <option value="$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py" />
+        <option value="$PROJECT_DIR$/ImageEditing/Noise.py" />
+        <option value="$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter_testfonts" />
+        <option value="$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py" />
+        <option value="$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py" />
       </list>
     </option>
   </component>
@@ -158,21 +202,6 @@
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="CaptchaGenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="MovingWindowReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuralNetTesting" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -185,16 +214,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\CS229\Project\ConvolutionalNeuralNets" />
+      <recent name="D:\Documents\CS229\Project\CaptchaGenerator" />
+      <recent name="D:\Documents\CS229\Project\pickleDataSets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\CS229\Project" />
       <recent name="D:\Documents\CS229\Project\NeuralNetTesting" />
       <recent name="D:\Documents\CS229\Project\ConvolutionalNeuralNets" />
       <recent name="D:\Documents\CS229\Project\ImageProcessing" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\CS229\Project\ConvolutionalNeuralNets" />
-      <recent name="D:\Documents\CS229\Project\CaptchaGenerator" />
-      <recent name="D:\Documents\CS229\Project\pickleDataSets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MovingWindowTest">
+  <component name="RunManager" selected="Python.TransferFromImageNet">
     <configuration name="CNN_single_char" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,53 +256,36 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Noise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ImageEditing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Preprocessing/Kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageEditing/Noise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="LetterDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TransferFromImageNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNetTesting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TransferLearningWithKeras" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralNetTesting/LetterDetection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="MovingWindowTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MovingWindowReader" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,20 +307,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="pycaptch_single_letter_testfonts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CaptchaGenerator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter_testfonts" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.CNN_single_char" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LetterDetection" />
-      <item index="2" class="java.lang.String" itemvalue="Python.captcha_from_single_letter_generator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Kmeans" />
-      <item index="4" class="java.lang.String" itemvalue="Python.MovingWindowTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.captcha_from_single_letter_generator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Noise" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pycaptch_single_letter_testfonts" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TransferFromImageNet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MovingWindowTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Kmeans" />
-        <item index="2" class="java.lang.String" itemvalue="Python.captcha_from_single_letter_generator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LetterDetection" />
-        <item index="4" class="java.lang.String" itemvalue="Python.CNN_single_char" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TransferFromImageNet" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CNN_single_char" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pycaptch_single_letter_testfonts" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Noise" />
+        <item index="4" class="java.lang.String" itemvalue="Python.captcha_from_single_letter_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +365,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="354" y="0" width="2213" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15095216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -362,25 +392,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NeuralNetTesting/Single_Char_Rec_CNN.h5" />
-    <entry file="file://$PROJECT_DIR$/ImageEditing/partial_letter_cover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaptchaDatabase/]SRe.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SingleLetterDatabase/P.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -432,7 +448,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#126#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,13 +475,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_nonrandom_generator.py">
+    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -507,13 +523,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_nonrandom_generator.py">
+    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,16 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_nonrandom_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImageEditing/Crop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -633,13 +637,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/single_letter_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -670,24 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageEditing/Distortion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/captcha_from_single_letter_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/load_pickle_database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -698,31 +677,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MovingWindowReader/MovingWindowGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Preprocessing/Kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#31#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +698,7 @@
         <state relative-caret-position="210">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#38#73#0" expanded="true" />
+            <element signature="e#38#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,12 +711,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Preprocessing/Kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#31#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/captcha_from_single_letter_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#126#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MovingWindowReader/MovingWindowTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="418">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageEditing/Distortion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/single_letter_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageEditing/Noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaptchaGenerator/pycaptch_single_letter_testfonts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNets/CNN_single_char.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransferLearningWithKeras/TransferFromImageNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
