@@ -4,8 +4,12 @@ import matplotlib.pyplot as plt
 
 import os
 
-dir = 'D:\\Documents\\CS229\\Project\\SingleCharDatabase\\'
-outdir = 'D:\\Documents\\CS229\\Project\\SingleCharProcessed\\'
+# dir = 'D:\\Documents\\CS229\\Project\\SingleCharDatabase\\'
+# outdir = 'D:\\Documents\\CS229\\Project\\SingleCharProcessed\\'
+dir = 'D:\\Documents\\CS229\\Project\\DATABASES\\TestSingleChar\\'
+outdir = 'D:\\Documents\\CS229\\Project\\DATABASES\\TestSingleChar\\'
+
+## if outdir == dir, then the code will overwrite the original database, which is fine...save some space
 counter = 0;
 for image in os.listdir(dir):
     img = Image.open(dir+image);

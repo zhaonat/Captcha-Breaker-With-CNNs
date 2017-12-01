@@ -8,15 +8,17 @@ import numpy as np
 
 ## load a prediction/generalization set
 file = dev.MY_PROJECT_PATH+'\\SingleCharOverlay\\overlaychar_database.p'
+file = dev.MY_PROJECT_PATH+'\\NeuralNetTesting\\singlechar_test_database.p'
+
 images, features = ldp.load_images_labels(file);
 y = features;
 X = images;
 
 X = X[:,:,:,0];
-X = np.reshape(X, (50000,60,40,1));
+X = np.reshape(X, (1580,60,40,1));
 
 
-y = y[:,1]; #switch this between 0 an d1
+#y = y[:,1]; #switch this between 0 an d1
 labels = np.array([ord(i) for i in y]);
 labels = labels - 65;
 y = np_utils.to_categorical(labels);
